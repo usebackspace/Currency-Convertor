@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(ddw-currency-converter.png);
+}
+
+.containe{
+    width: 400px;
+    padding: 40px;
+    border-radius: 35px;
+    background-color: rgb(20, 165, 165);
+    border: 5px double whitesmoke;
+    
+}
+
+.containe h1{
+    font-size: 33px;
+    
+}
+
+
+.containe form{
+    margin-left: 10px;
+    
+}
+
+form :where(input,select,button){
+    width: 100%;
+    /* outline: none; */
+    border: none;
+    border-radius: 8px;
+}
+
+form p{
+    font-weight: bold;
+}
+
+form .list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.list .selectlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    border: 2px solid rgb(9, 114, 184);
+    border-radius: 10px;
+}
+/* 
+.selectlist select{
+    width: auto;
+} */
+
+.selectlist img{
+    max-width: 45px;
+}
+
+.selectlist select{
+    background-color: rgb(20, 165, 165);
+    font-size: 21px;
+    border-radius: 5px;
+    
+}
+
+.list .icon{
+
+    margin-top: 40px;
+}
+
+form .converted_rate{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form .colo{
+    background-color: rgb(4, 86, 110);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px dashed rgb(15, 236, 26);
+}
+
+form button:hover{
+    color: rgb(15, 236, 26);
+}
+
+
